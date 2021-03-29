@@ -16,6 +16,7 @@ Avant d'exécuter le code "OLAP.py", vérifier bien que vous avez lancer le serv
 # Exécution du code OLAP.py
 - Installer la librairie tkinter sur python avec pip install si elle ne l'est pas déjà. Pour vérifier, il suffit de lancer sur un shell python :
 >>> import tkinter
+
 >>> tkinter._test()
 
 si tout se passe bien, une petite fenêtre s'affiche sur l'écran.
