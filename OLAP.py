@@ -22,11 +22,10 @@ from IPython.display import HTML
 import webbrowser
 # Import Elasticsearch package 
 from elasticsearch import Elasticsearch 
+
 import json
 import requests
 import pandas as pd
-import io
-import numpy as np
 
 # Connexion au serveur d'elasticsearch
 es=Elasticsearch([{'host':'localhost','port':9200}])
